@@ -5,13 +5,13 @@ longTask();
 console.timeEnd('TEST');
 
 function longTask() {
-  var n;
+  let n;
 
-  for(var i=0; i<10000; i++) {
-    for(var j=0; j<10000; j++) {
+  for(let i=0; i<10000; i++) {
+    for(let j=0; j<10000; j++) {
       n = i * j;
     }
   }
-  
+
   return n;
 }

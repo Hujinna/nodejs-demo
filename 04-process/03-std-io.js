@@ -5,7 +5,7 @@ const log   = console.log,
       stdout= process.stdout,
       msg   = ['Name', 'Email', 'QQ', 'Mobile'];
 
-var me = {}, i = 1;
+let me = {}, i = 1;
 
 stdout.write(msg[0] + ': ');
 
